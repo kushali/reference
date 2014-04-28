@@ -1,0 +1,22 @@
+* Emacs
+** Tramp
+*** find file /user@server:
+*** meta ! to run shell commands
+** Replace lines from grep buffer
+C-c C-p runs the command wgrep-change-to-wgrep-mode, which is an
+interactive compiled Lisp function in `wgrep.el'.
+It is bound to C-c C-p.
+Make changes
+Save
+
+* OsX
+** Set hostname everywhere
+scutil --set LocalHostName aja
+scutil --set HostName aja
+scutil --set ComputerName aja
+
+
+* Unix / Linux
+** Create a file with a certain size
+// Creates a output.dat zero filled with 10240 blocks of size 1024. 
+dd if=/dev/zero of=output.dat  bs=1024  count=10240
