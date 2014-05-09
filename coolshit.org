@@ -15,8 +15,9 @@ scutil --set LocalHostName aja
 scutil --set HostName aja
 scutil --set ComputerName aja
 
-
 * Unix / Linux
 ** Create a file with a certain size
 // Creates a output.dat zero filled with 10240 blocks of size 1024. 
 dd if=/dev/zero of=output.dat  bs=1024  count=10240
+* Rails
+** Filter ordering: http://d.hatena.ne.jp/favril/20100722/1279781635
